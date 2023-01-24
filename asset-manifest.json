@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/mazabukacc/static/css/main.073c9b0a.css",
-    "main.js": "/mazabukacc/static/js/main.47cf55a0.js",
+    "main.css": "/mazabukacc/static/css/main.103d53bd.css",
+    "main.js": "/mazabukacc/static/js/main.c4dacd80.js",
     "static/js/787.1904e148.chunk.js": "/mazabukacc/static/js/787.1904e148.chunk.js",
-    "static/media/logo.svg": "/mazabukacc/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/maz.jpg": "/mazabukacc/static/media/maz.c03e3fb7558f8972f4a6.jpg",
+    "static/media/maz2.jpg": "/mazabukacc/static/media/maz2.9a9fbb9356d8dd7b252a.jpg",
+    "static/media/water.jpg": "/mazabukacc/static/media/water.4a32c705acd17e73d1c7.jpg",
+    "static/media/picture.jpg": "/mazabukacc/static/media/picture.c8ec94d124600fbbadf8.jpg",
+    "static/media/riots.jpeg": "/mazabukacc/static/media/riots.e8e8ea5c93d64de6e1c0.jpeg",
+    "static/media/maz1.jpg": "/mazabukacc/static/media/maz1.1fd6b14296956217feb1.jpg",
     "index.html": "/mazabukacc/index.html",
-    "main.073c9b0a.css.map": "/mazabukacc/static/css/main.073c9b0a.css.map",
-    "main.47cf55a0.js.map": "/mazabukacc/static/js/main.47cf55a0.js.map",
+    "main.103d53bd.css.map": "/mazabukacc/static/css/main.103d53bd.css.map",
+    "main.c4dacd80.js.map": "/mazabukacc/static/js/main.c4dacd80.js.map",
     "787.1904e148.chunk.js.map": "/mazabukacc/static/js/787.1904e148.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.47cf55a0.js"
+    "static/css/main.103d53bd.css",
+    "static/js/main.c4dacd80.js"
   ]
 }
