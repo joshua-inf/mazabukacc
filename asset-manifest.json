@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mazabukacc/static/css/main.103d53bd.css",
-    "main.js": "/mazabukacc/static/js/main.c4dacd80.js",
+    "main.css": "/mazabukacc/static/css/main.7838f408.css",
+    "main.js": "/mazabukacc/static/js/main.a6e6eec8.js",
     "static/js/787.1904e148.chunk.js": "/mazabukacc/static/js/787.1904e148.chunk.js",
     "static/media/maz.jpg": "/mazabukacc/static/media/maz.c03e3fb7558f8972f4a6.jpg",
     "static/media/maz2.jpg": "/mazabukacc/static/media/maz2.9a9fbb9356d8dd7b252a.jpg",
@@ -10,12 +10,12 @@
     "static/media/riots.jpeg": "/mazabukacc/static/media/riots.e8e8ea5c93d64de6e1c0.jpeg",
     "static/media/maz1.jpg": "/mazabukacc/static/media/maz1.1fd6b14296956217feb1.jpg",
     "index.html": "/mazabukacc/index.html",
-    "main.103d53bd.css.map": "/mazabukacc/static/css/main.103d53bd.css.map",
-    "main.c4dacd80.js.map": "/mazabukacc/static/js/main.c4dacd80.js.map",
+    "main.7838f408.css.map": "/mazabukacc/static/css/main.7838f408.css.map",
+    "main.a6e6eec8.js.map": "/mazabukacc/static/js/main.a6e6eec8.js.map",
     "787.1904e148.chunk.js.map": "/mazabukacc/static/js/787.1904e148.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.103d53bd.css",
-    "static/js/main.c4dacd80.js"
+    "static/css/main.7838f408.css",
+    "static/js/main.a6e6eec8.js"
   ]
 }
