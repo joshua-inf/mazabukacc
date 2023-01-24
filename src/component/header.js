@@ -13,17 +13,24 @@ export function Nav() {
                 </div>
             </div>
         </div>
-        <div style={{background:`url(${image}) no-repeat center`, backgroundSize:'cover', backgroundPositionY:'10%'}}>
-            <div style={{backgroundColor:'rgba(0,0,0,.6)', height:'300px'}} className="p-5 fw-bolder text-white d-flex justify-content-between">
-                <h3  className=''>MAZABUKA CITY COUNCIL</h3>
-                <div className="">
-                    <button className="btn btn-lg btn-warning mx-2">Epay</button>
-                    <button className="btn btn-lg btn-warning mx-2">EService</button>
+        <div className='' style={{background:`url(${image}) no-repeat center`, backgroundSize:'cover', backgroundPositionY:'10%'}}>
+            <div style={{backgroundColor:'rgba(0,0,0,.6)', height:'300px'}} className=" fw-bolder text-white p-5">
+                <div className='row'>
+                    <div className='col-12 py-5'>
+                        <h1 className='d-flex fw-bolder justify-content-center'>MAZABUKA CITY COUNCIL</h1>
+                    </div>
+                    
+                    <div className="col-12 pt-4">
+                        <div className='d-flex justify-content-end '>
+                        <button className="btn  btn-lg fw-bold btn-warning mx-2">Epay</button>
+                        <button className="btn  btn-lg fw-bold btn-warning mx-2">EService</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div className=" navs">
-            <ul className="">
+        <div className="navs">
+            <ul className="d-none d-sm-flex">
                 <li><a href="#v">home</a></li>
                 <li><a href="#v">about us</a></li>
                 <li><a href="#v">contact us</a></li>

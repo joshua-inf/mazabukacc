@@ -1,5 +1,5 @@
 .navs {
-  height: 50px;
+  height: 80px;
   border-bottom: 1px solid rgba(0,0,0,.2);
   border-top: 1px solid rgba(0,0,0,.2);
   background-color: rgba(0,0,0,.8);
@@ -10,7 +10,6 @@
 
 .navs ul {
   display: flex;
-  justify-content: center;
 }
 
 .navs ul li {
@@ -18,7 +17,7 @@
 }
 
 .navs ul li a {
-  line-height: 50px;
+  line-height: 80px;
   padding: 15px 10px;
   color: #fff;
   text-decoration: none;

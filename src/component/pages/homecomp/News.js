@@ -6,10 +6,10 @@ const News = () => {
             <div className="px-3">
                 <div>
                     <div className="row bg-light my-3">
-                        <div className="col-3 p-0">
+                        <div className="col-sm-3 p-0">
                             <img alt='' src={image} width='100%'/>
                         </div>
-                        <div className='col-9'>
+                        <div className='col-sm-9'>
                             <div className=''>
                                 <h2 className='text-secondary'>News header</h2>
                                 <p style={{fontSize:'15px'}}>
@@ -24,10 +24,10 @@ const News = () => {
                         </div>
                     </div>
                     <div className="row bg-light my-3">
-                        <div className="col-3 p-0">
+                        <div className="col-sm-3 p-0">
                             <img alt='' src={image} width='100%'/>
                         </div>
-                        <div className='col-9'>
+                        <div className='col-sm-9'>
                             <div className=''>
                                 <h2 className='text-secondary'>News header</h2>
                                 <p style={{fontSize:'15px'}}>
@@ -42,10 +42,10 @@ const News = () => {
                         </div>
                     </div>
                     <div className="row bg-light my-3">
-                        <div className="col-3 p-0">
+                        <div className="col-sm-3 p-0">
                             <img alt='' src={image} width='100%'/>
                         </div>
-                        <div className='col-9'>
+                        <div className='col-sm-9'>
                             <div className=''>
                                 <h2 className='text-secondary'>News header</h2>
                                 <p style={{fontSize:'15px'}}>
