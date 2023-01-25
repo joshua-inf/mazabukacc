@@ -1,12 +1,13 @@
 .navs {
-  height: 80px;
+  height: 60px;
   border-bottom: 1px solid rgba(0,0,0,.2);
   border-top: 1px solid rgba(0,0,0,.2);
   background-color: rgba(0,0,0,.8);
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 3;
 }
+
 
 .navs ul {
   display: flex;
@@ -14,13 +15,34 @@
 
 .navs ul li {
   list-style: none;
+  line-height: initial;
+}
+#a{
+  padding: 20px 30px;
+ line-height: 60px;
+ color: #fff;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-weight: bold;
 }
 
-.navs ul li a {
-  line-height: 80px;
-  padding: 15px 10px;
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
+.navs .service a {
+  color: black;
+ text-decoration: none;
+ font-size: 13px;
+ text-transform: none;
+}
+
+.navs .service li {
+  margin: 10px;
+}
+.link:hover .service{
+  display: block;
+}
+.navs .service {
+  display: none;
+}
+.navs .service ul{
+  display: flex;
+  flex-direction: column;
 }
