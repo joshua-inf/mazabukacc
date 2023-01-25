@@ -246,7 +246,7 @@ export function Nav() {
                     position:'fixed',
                     bottom:'30px',
                     right:'30px',
-                }}>top</button>
+                }}><i class="fa-solid fa-arrow-up"></i></button>
             )}
         </>
     )
