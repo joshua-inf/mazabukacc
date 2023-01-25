@@ -17,6 +17,7 @@
   list-style: none;
   line-height: initial;
 }
+
 #a{
   padding: 20px 30px;
  line-height: 60px;
@@ -31,6 +32,7 @@
  text-decoration: none;
  font-size: 13px;
  text-transform: none;
+ transition: 0.5s;
 }
 
 .navs .service li {
@@ -45,4 +47,20 @@
 .navs .service ul{
   display: flex;
   flex-direction: column;
+}
+
+.navs .service li .underline {
+  height: 3px;
+  width: 0;
+  transition: width 0.5s ease;
+  background-color: lightblue;
+}
+.navs .service li:hover .underline {
+  width: 100px;
+  transition: width 0.5s ease;
+}
+
+.navs .service li:hover a {
+  opacity: 0.4;
+  transition: 0.5s;
 }
