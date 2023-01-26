@@ -14,7 +14,7 @@ export function Marriage() {
                             <div>
                                 <div className="">
                                     <div className="row">
-                                        <div className="col-8">
+                                        <div className="col-12 col-md-8">
                                             <div>
                                                 <div className="py-3">
                                                     <h1 style={{textTransform:'uppercase'}}>Marriage</h1>
@@ -22,10 +22,10 @@ export function Marriage() {
                                                 <hr/>
                                                 <div>
                                                     <div className="py-4">
-                                                        <img alt="" src={image} width='600px'/>
+                                                        <img alt="" src={image} width='100%'/>
                                                     </div>
-                                                    <div className="px-4">
-                                                        <p>
+                                                    <div className="px-3" style={{textAlign:'justify',textJustify:'inter-word'}}>
+                                                        <p >
                                                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
                                                          eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam 
                                                          voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione volu

@@ -19,12 +19,36 @@
 }
 
 #a{
-  padding: 20px 30px;
+  padding: 20px 10px;
  line-height: 60px;
  color: #fff;
  text-decoration: none;
  text-transform: uppercase;
  font-weight: bold;
+}
+
+@media screen and (max-width: 430px) {
+  #a {
+    padding:0;
+    margin: 0;
+    line-height: 30px;
+  }
+  .navs .lists{
+    position: absolute;
+    background-color: rgba(0,0,0,.8);
+    top:60px;
+    right: 0;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .navs .service {
+    top:0px;
+  }
+}
+.navs .lists{
+  display: flex;
 }
 
 .navs .service a {

@@ -18,29 +18,28 @@ export function Nav() {
     }, [])
 
     const scrollup = () => {
-        window.scrollTo({
+        window.scrollTo({ 
             top: 0,
             behavior: 'smooth'
         })
     }
 
-    let serv = document.getElementById('service');
-
-    window.addEventListener('click', function (e) {
-        if (!serv.contains(e.target)) {
-            // Clicked in box
-            serv.style.display = 'none';
-        } else {
-            // Clicked outside the box
-        }
-    });
-
+    let lists = document.getElementById('lists')
+    let showbtn = document.getElementById('show')
+    let hidebt = document.getElementById('hide')
 
     function hide() {
-        serv.style.display = 'block'
-        console.log('hello')
+        lists.style.display = 'none'
+        showbtn.style.display = 'block'
+        hidebt.style.display = 'none'
     }
 
+    function show(){
+        lists.style.display = 'flex'
+        hidebt.style.display = 'block'
+        showbtn.style.display = 'none'
+    }
+   
 
 
     return (
@@ -56,33 +55,38 @@ export function Nav() {
                 </div>
             </div>
             <div className='' style={{ background: `url(${image}) no-repeat center`, backgroundSize: 'cover', backgroundPositionY: '60%' }}>
-                <div style={{ backgroundColor: 'rgba(0,0,0,.2)', height: '300px' }} className=" fw-bolder text-white p-5">
+                <div style={{ backgroundColor: 'rgba(0,0,0,.2)', height: '300px' }} className=" fw-bolder text-white px-3 py-5">
                     <div className='row'>
-                        <div className='col-12 py-3 d-flex' >
-                            <img alt='mazcclogo' src={image1} height='150px' />
-                            <h1 style={{lineHeight:'150px'}} className='mx-3 text-light fw-bolder'>MAZABUKA CITY COUNCIL</h1>
+                        <div className='col-12 col-sm-8' >
+                            <div className='d-sm-flex ' style={{textAlign:'center'}}>
+                                <img alt='mazcclogo' src={image1} width='100px' />
+                                <h5 style={{lineHeight:'90px'}} className='text-light px-2 fw-bolder'>MAZABUKA CITY COUNCIL</h5>
+                            </div>
                         </div>
-
-                        <div className="col-12 ">
-                            <div className='d-flex justify-content-end '>
+                        <div className="col-12 col-sm-4">
+                            <div className='d-flex justify-content-sm-end justify-content-center '>
                                 <button className="btn  btn-lg fw-bold btn-warning mx-2">Epay</button>
-                                <button className="btn  btn-lg fw-bold btn-warning mx-2">EService</button>
+                                <button className="btn  btn-lg fw-bold btn-warning ">EService</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="navs shadow d-flex justify-content-between">
-                <ul className="d-none d-sm-flex">
+                <div className=' d-sm-none d-block'>
+                    <button id='hide' onClick={hide} style={{display:'none'}} className='btn btn-lg btn-outline-secondary '><i class="fa-solid fa-bars"></i></button>
+                    <button id='show' onClick={show} className='btn btn-lg btn-outline-secondary '><i class="fa-solid fa-bars"></i></button>
+                </div>
+                <ul id='lists' className="lists justify-content-sm-evenly">
                     <li><Link id='a' to='mazabukacc/'>home</Link></li>
                     <li>
                         <Link id='a' className='link' >
                             services
-                            <div style={{ position: 'absolute', top: '60px', left: '0', right: '0', backgroundColor: 'rgba(255,255,255)' }} className='text-white shadow service' >
+                            <div style={{ position: 'absolute', left: '0', right: '0', backgroundColor: 'rgba(255,255,255)' }} className='text-white shadow service' >
                                 <div className='px-3'>
                                     <div className='row p-3'>
-                                        <div className='col-3'>
-                                            <div className='p-4'>
+                                        <div className='col-12 col-sm-6 col-md-4 col-lg-3'>
+                                            <div className='p-2'>
                                                 <h4 className='text-dark d-flex justify-content-center'>Legal Services</h4>
                                                 <hr className='text-dark' />
                                                 <ul>
@@ -105,8 +109,8 @@ export function Nav() {
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div className='col-3'>
-                                            <div className='p-4'>
+                                        <div className='col-12 col-sm-6 col-md-4 col-lg-3'>
+                                            <div className='p-2'>
                                                 <h4 className='text-dark d-flex justify-content-center'>More Services</h4>
                                                 <hr className='text-dark' />
                                                 <ul>
@@ -137,11 +141,11 @@ export function Nav() {
                     <li>
                         <Link id='a' className='link'>
                             departments
-                            <div style={{ position: 'absolute', top: '60px', left: '0', right: '0', backgroundColor: 'rgba(255,255,255)' }} className='text-white shadow service' >
+                            <div style={{ position: 'absolute', left: '0', right: '0', backgroundColor: 'rgba(255,255,255)' }} className='text-white shadow service' >
                                 <div className='px-3'>
                                     <div className='row p-3'>
-                                        <div className='col-3'>
-                                            <div className='p-4'>
+                                        <div className='col-12 col-sm-6 col-md-4  col-lg-3'>
+                                            <div className='p-2'>
                                                 <h4 className='text-dark d-flex justify-content-center'>Departments</h4>
                                                 <hr className='text-dark' />
                                                 <ul>
@@ -160,8 +164,8 @@ export function Nav() {
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div className='col-3'>
-                                            <div className='p-4'>
+                                        <div className='col-12 col-sm-6 col-md-4  col-lg-3'>
+                                            <div className='p-2'>
                                                 <h4 className='text-dark d-flex justify-content-center'>More Departments</h4>
                                                 <hr className='text-dark' />
                                                 <ul>
@@ -192,11 +196,11 @@ export function Nav() {
                     <li>
                         <Link id='a' className='link' >
                             projects
-                            <div style={{ position: 'absolute', top: '60px', left: '0', right: '0', backgroundColor: 'rgba(255,255,255)' }} className='text-white shadow service' >
+                            <div style={{ position: 'absolute', left: '0', right: '0', backgroundColor: 'rgba(255,255,255)' }} className='text-white shadow service' >
                                 <div className='px-3'>
                                     <div className='row p-3'>
-                                        <div className='col-3'>
-                                            <div className='p-4'>
+                                        <div className='col-12 col-sm-6 col-md-4 col-lg-3'>
+                                            <div className='p-2'>
                                                 <h4 className='text-dark d-flex justify-content-center'>Projects</h4>
                                                 <hr className='text-dark' />
                                                 <ul>
@@ -209,8 +213,8 @@ export function Nav() {
                                                 </ul>
                                             </div>
                                         </div>
-                                        <div className='col-3'>
-                                            <div className='p-4'>
+                                        <div className='col-12 col-sm-6 col-md-4 col-lg-3'>
+                                            <div className='p-2'>
                                                 <h4 className='text-dark d-flex justify-content-center'>More Projects</h4>
                                                 <hr className='text-dark' />
                                                 <ul>
@@ -231,10 +235,9 @@ export function Nav() {
                             </div>
                         </Link>
                     </li>
-                    <li><Link id='a'>something soon</Link></li>
                 </ul>
                 {hidebtn && (
-                    <div id='btn' className='p-2 px-5'>
+                    <div id='btn' className='py-3 d-sm-block'>
                         <button className='btn mx-1 btn-sm btn-outline-warning'>Epay</button>
                         <button className='btn mx-1 btn-sm btn-outline-warning'>Eservice</button>
                     </div>
