@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mazabukacc/static/css/main.37a32463.css",
-    "main.js": "/mazabukacc/static/js/main.965c0078.js",
+    "main.css": "/mazabukacc/static/css/main.e18523f3.css",
+    "main.js": "/mazabukacc/static/js/main.e6923276.js",
     "static/js/787.1904e148.chunk.js": "/mazabukacc/static/js/787.1904e148.chunk.js",
     "static/media/water.jpg": "/mazabukacc/static/media/water.ce0660d36a910d940a80.jpg",
     "static/media/mazlo.png": "/mazabukacc/static/media/mazlo.701869e0868e7f29cd91.png",
@@ -12,12 +12,12 @@
     "static/media/mg.webp": "/mazabukacc/static/media/mg.96a24ac3c629d749a35a.webp",
     "static/media/maz1.jpg": "/mazabukacc/static/media/maz1.1fd6b14296956217feb1.jpg",
     "index.html": "/mazabukacc/index.html",
-    "main.37a32463.css.map": "/mazabukacc/static/css/main.37a32463.css.map",
-    "main.965c0078.js.map": "/mazabukacc/static/js/main.965c0078.js.map",
+    "main.e18523f3.css.map": "/mazabukacc/static/css/main.e18523f3.css.map",
+    "main.e6923276.js.map": "/mazabukacc/static/js/main.e6923276.js.map",
     "787.1904e148.chunk.js.map": "/mazabukacc/static/js/787.1904e148.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37a32463.css",
-    "static/js/main.965c0078.js"
+    "static/css/main.e18523f3.css",
+    "static/js/main.e6923276.js"
   ]
 }
