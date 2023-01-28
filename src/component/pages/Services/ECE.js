@@ -1,11 +1,9 @@
-import { Link } from "react-router-dom";
-import image from '../../images/mg.webp'
-import image1 from '../../images/poster.jpg'
+import image from '../../images/mg1.webp'
 
-export function Marriage() {
+export function ECE() {
     return (
         <>
-            <div>
+            <div id='top'>
                 <div className="p-3">
                     <div className="row">
                         <div className="col-lg-1">
@@ -78,10 +76,8 @@ export function Marriage() {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-4" style={{position:'relative'}}>
-                                            <div className="d-sm-block d-none p-3" style={{position:'sticky', top:'80px'}}>
-                                                <img alt="" src={image1} width='100%'/>
-                                            </div>
+                                        <div className="col-4">
+
                                         </div>
                                     </div>
                                 </div>

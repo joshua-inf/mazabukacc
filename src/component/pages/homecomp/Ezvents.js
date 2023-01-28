@@ -1,4 +1,5 @@
 import image from '../../images/picture.jpg'
+import image1 from '../../images/poster.jpg'
 export function Events(){
     return (
         <>
@@ -56,6 +57,11 @@ export function Events(){
                             <div className='p-1'>
                                 <button className='btn w-100 btn-sm btn-outline-secondary'>check them all out</button>
                             </div>
+                        </div>
+                    </div>
+                    <div className='py-5 px-3'>
+                        <div style={{position:'sticky'}}>
+                            <img alt='' src={image1}  width='100%'/>
                         </div>
                     </div>
                 </div>

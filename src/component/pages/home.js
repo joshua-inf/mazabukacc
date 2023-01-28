@@ -20,7 +20,20 @@ export function Home(){
                                     <div className="col-12 col-md-8">
                                         <div className="px-2">
                                             <Mainhome/>
-                                            <h3 className="mt-5">NEWS AND OTHER ARTICLES</h3>
+                                            <div>
+                                                <div>
+                                                    <h3 className="mt-5 text-uppercase">Anouncements</h3>
+                                                    <hr/>
+                                                    <hr/>
+                                                    <div className="border px-4 py-5">
+                                                        <p className="display-6">
+                                                            statement will be made soon ...
+                                                        </p>
+                                                        <a className="" href="#link">previous news</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <h3 className="mt-5 text-uppercase">NEWS AND OTHER ARTICLES</h3>
                                             <hr/>
                                             <hr/>
                                                 <News/>

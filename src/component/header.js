@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import image from './images/water.jpg'
 import image1 from './images/mazlo.png'
-import { Link } from 'react-router-dom';
+import { Link , NavLink } from 'react-router-dom';
 export function Nav() {
 
     const [hidebtn, setHidebtn] = useState();
@@ -18,7 +18,7 @@ export function Nav() {
     }, [])
 
     const scrollup = () => {
-        window.scrollTo({ 
+        window.scrollTo({
             top: 0,
             behavior: 'smooth'
         })
@@ -34,36 +34,37 @@ export function Nav() {
         hidebt.style.display = 'none'
     }
 
-    function show(){
+    function show() {
         lists.style.display = 'flex'
         hidebt.style.display = 'block'
         showbtn.style.display = 'none'
     }
-   
+
 
 
     return (
         <>
             <div className="px-5 d-flex justify-content-end bg-dark py-2">
                 <div className='d-flex justify-content-end'>
-                    <button className="btn py-1 btn-sm rounded-1 btn-outline-secondary mx-1">yo</button>
-                    <button className="btn py-1 btn-sm rounded-1 btn-outline-secondary mx-1">yo</button>
+                    <a href='#link' className='btn py-1 btn-sm rounded-1 btn-outline-secondary mx-1'><i class="fa-brands fa-facebook"></i></a>
+                    <a href='#link' className='btn py-1 btn-sm rounded-1 btn-outline-secondary mx-1'><i class="fa-brands fa-instagram"></i></a>
+                    <a href='#link' className='btn py-1 btn-sm rounded-1 btn-outline-secondary mx-1'><i class="fa-brands fa-twitter"></i></a>
                     <div className='input-group'>
                         <input type='text' className='p-0 outline-none+ form-control' />
                         <button className="btn btn-sm btn-warning">search</button>
                     </div>
                 </div>
             </div>
-            <div className='' style={{ background: `url(${image}) no-repeat center`, backgroundSize: 'cover', backgroundPositionY: '60%' }}>
+            <div className='' style={{ background: `url(${image}) no-repeat center`, backgroundSize: 'cover', backgroundPositionY: '10%' }}>
                 <div style={{ backgroundColor: 'rgba(0,0,0,.2)', height: '300px' }} className=" fw-bolder text-white px-3 py-5">
-                    <div className='row'>
-                        <div className='col-12 col-sm-8' >
-                            <div className='d-sm-flex ' style={{textAlign:'center'}}>
+                    <div className='d-flex flex-column'>
+                        <div className=''>
+                            <div className='d-sm-flex ' style={{ textAlign: 'center' }}>
                                 <img alt='mazcclogo' src={image1} width='100px' />
-                                <h5 style={{lineHeight:'90px'}} className='text-light px-2 fw-bolder'>MAZABUKA CITY COUNCIL</h5>
+                                <h5 style={{ lineHeight: '90px' }} className='text-light px-2 fw-bolder'>MAZABUKA CITY COUNCIL</h5>
                             </div>
                         </div>
-                        <div className="col-12 col-sm-4">
+                        <div className="">
                             <div className='d-flex justify-content-sm-end justify-content-center '>
                                 <button className="btn  btn-lg fw-bold btn-warning mx-2">Epay</button>
                                 <button className="btn  btn-lg fw-bold btn-warning ">EService</button>
@@ -74,11 +75,11 @@ export function Nav() {
             </div>
             <div className="navs shadow d-flex justify-content-between">
                 <div className=' d-sm-none d-block'>
-                    <button id='hide' onClick={hide} style={{display:'none'}} className='btn btn-lg btn-outline-secondary '><i class="fa-solid fa-bars"></i></button>
+                    <button id='hide' onClick={hide} style={{ display: 'none' }} className='btn btn-lg btn-outline-secondary '><i class="fa-solid fa-bars"></i></button>
                     <button id='show' onClick={show} className='btn btn-lg btn-outline-secondary '><i class="fa-solid fa-bars"></i></button>
                 </div>
                 <ul id='lists' className="lists justify-content-sm-evenly">
-                    <li><Link id='a' to='mazabukacc/'>home</Link></li>
+                    <li><NavLink id='a' to='mazabukacc/'>home</NavLink></li>
                     <li>
                         <Link id='a' className='link' >
                             services
@@ -91,19 +92,19 @@ export function Nav() {
                                                 <hr className='text-dark' />
                                                 <ul>
                                                     <li>
-                                                        <Link id='link' to='mazabukacc/services/marriages'>Marriages</Link>
+                                                        <NavLink id='link' to='mazabukacc/services/marriages'>Marriages</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <Link id='link' to='#link'>Early Childhood Education</Link>
+                                                        <NavLink id='link' to='mazabukacc/services/earlyChildEducation#top'>Early Childhood Education</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <Link id='link' to='#link'>Funerals and Cemetaries</Link>
+                                                        <NavLink id='link' to='mazabukacc/services/link'>Funerals and Cemetaries</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <Link id='link' to='#link'>Environment and Health</Link>
+                                                        <NavLink id='link' to='mazabukacc/services/link'>Environment and Health</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                 </ul>
@@ -115,20 +116,20 @@ export function Nav() {
                                                 <hr className='text-dark' />
                                                 <ul>
                                                     <li>
-                                                        <Link id='link' to='#link'>City Libraries</Link>
+                                                        <NavLink id='link' to='mazabukacc/services/link'>City Libraries</NavLink>
                                                         <div className='underline'></div>
 
                                                     </li>
                                                     <li>
-                                                        <Link id='link' to='#link'>Hire Link venue</Link>
+                                                        <NavLink id='link' to='mazabukacc/services/link'>Hire NavLink venue</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <Link id='link' to='#link'>Traditional Healer/ Herbalist</Link>
+                                                        <NavLink id='link' to='mazabukacc/services/link'>Traditional Healer/ Herbalist</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <Link id='link' to='#link'>Waste Management</Link>
+                                                        <NavLink id='link' to='mazabukacc/services/link'>Waste Management</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                 </ul>
@@ -150,15 +151,15 @@ export function Nav() {
                                                 <hr className='text-dark' />
                                                 <ul>
                                                     <li>
-                                                        <Link id='link' to='#link'>Housing and Social Services</Link>
+                                                        <NavLink id='link' to='mazabukacc/services/link'>Housing and Social Services</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <Link id='link' to='#link'>Public Health</Link>
+                                                        <NavLink id='link' to='mazabukacc/services/link'>Public Health</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <Link id='link' to='#link'>Valuation and Real Estate</Link>
+                                                        <NavLink id='link' to='mazabukacc/services/link'>Valuation and Real Estate</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                 </ul>
@@ -170,19 +171,19 @@ export function Nav() {
                                                 <hr className='text-dark' />
                                                 <ul>
                                                     <li>
-                                                        <Link id='link' to='#link'>Administration</Link>
+                                                        <NavLink id='link' to='mazabukacc/services/link'>Administration</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <Link id='link' to='#link'>Finance</Link>
+                                                        <NavLink id='link' to='mazabukacc/services/link'>Finance</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <Link id='link' to='#link'>Legal Services</Link>
+                                                        <NavLink id='link' to='mazabukacc/services/link'>Legal Services</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <Link id='link' to='#link'>Engineering</Link>
+                                                        <NavLink id='link' to='mazabukacc/services/link'>Engineering</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                 </ul>
@@ -205,10 +206,10 @@ export function Nav() {
                                                 <hr className='text-dark' />
                                                 <ul>
                                                     <li>
-                                                        <Link id='link' to='#link'>CDF use in Mazabuka local</Link>
+                                                        <NavLink id='link' to='mazabukacc/services/link'>CDF use in Mazabuka local</NavLink>
                                                     </li>
                                                     <li>
-                                                        <Link id='link' to='#link'>Inner Ring Road project</Link>
+                                                        <NavLink id='link' to='mazabukacc/services/link'>Inner Ring Road project</NavLink>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -219,13 +220,13 @@ export function Nav() {
                                                 <hr className='text-dark' />
                                                 <ul>
                                                     <li>
-                                                        <Link id='link' to='#link'>Roads and Drainages</Link>
+                                                        <NavLink id='link' to='mazabukacc/services/link'>Roads and Drainages</NavLink>
                                                     </li>
                                                     <li>
-                                                        <Link id='link' to='#link'>Street Lighting Projects</Link>
+                                                        <NavLink id='link' to='mazabukacc/services/link'>Street Lighting Projects</NavLink>
                                                     </li>
                                                     <li>
-                                                        <Link id='link' to='#link'>Valuation</Link>
+                                                        <NavLink id='link' to='mazabukacc/services/link'>Valuation</NavLink>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -246,9 +247,10 @@ export function Nav() {
             </div>
             {hidebtn && (
                 <button onClick={scrollup} className='btn rounded-0 btn-lg bg-warning shadow' style={{
-                    position:'fixed',
-                    bottom:'30px',
-                    right:'30px',
+                    position: 'fixed',
+                    bottom: '30px',
+                    zIndex:'3',
+                    right: '30px',
                 }}><i class="fa-solid fa-arrow-up"></i></button>
             )}
         </>

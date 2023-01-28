@@ -1,4 +1,5 @@
 import image from '../../images/riots.jpeg'
+import { Link } from 'react-router-dom'
 
 const News = () => {
     return (
@@ -60,6 +61,10 @@ const News = () => {
                         </div>
                     </div>
                 </div>
+                <div className='d-flex justify-content-end'>
+                    <Link to='/mazabukacc/NewsList' className=' text-uppercase'>view more</Link>
+                </div>
+                    <hr className='my-2'/>
             </div>
         </>
     )
