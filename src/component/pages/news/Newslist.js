@@ -29,7 +29,7 @@ export function NewsList() {
                                                     <div className='card-body'>
                                                         <h6 className='card-title text-uppercase'>some heading about news here</h6>
                                                         <p style={{ textAlign: 'justify', textJustify: 'inter-word' }}>
-                                                            {result}<Link >View more</Link>
+                                                            {result}<Link to='/mazabukacc/NewsList/2' >View more</Link>
                                                         </p>
                                                     </div>
                                                     <div className='d-flex px-2 justify-content-end'>
@@ -46,7 +46,7 @@ export function NewsList() {
                                                     <div className='card-body'>
                                                         <h6 className='card-title text-uppercase'>some heading about news here</h6>
                                                         <p style={{ textAlign: 'justify', textJustify: 'inter-word' }}>
-                                                            {result}<Link >View more</Link>
+                                                            {result}<Link to='/mazabukacc/NewsList/3' >View more</Link>
                                                         </p>
                                                     </div>
                                                     <div className='d-flex px-2 justify-content-end'>
@@ -63,7 +63,7 @@ export function NewsList() {
                                                     <div className='card-body'>
                                                         <h6 className='card-title text-uppercase'>some heading about news here</h6>
                                                         <p style={{ textAlign: 'justify', textJustify: 'inter-word' }}>
-                                                            {result}<Link >View more</Link>
+                                                            {result}<Link to='/mazabukacc/NewsList/1' >View more</Link>
                                                         </p>
                                                     </div>
                                                     <div className='d-flex px-2 justify-content-end'>

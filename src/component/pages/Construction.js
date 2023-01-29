@@ -3,13 +3,13 @@ import image from '../images/wasting_time.gif'
 export function Build(){
     return(
         <>
-            <div>
+            <div className='px-3'>
                 <div className='row mt-5'>
                     <div className='col-3'>
 
                     </div>
                     <div className='col-6'>
-                        <div className='p-4'>
+                        <div className=''>
                             <div>
                                 <h3 className='display-6 text-center text-uppercase'>page is under construction</h3>
                                 <hr/>
