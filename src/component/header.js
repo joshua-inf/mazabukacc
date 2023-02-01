@@ -61,7 +61,7 @@ export function Nav() {
                         <div className=''>
                             <div className='d-sm-flex ' style={{ textAlign: 'center'}}>
                                 <img alt='mazcclogo' src={image1} width='100px' />
-                                <h5 style={{ lineHeight: '90px' }} className='text-secondary px-2 fw-bolder'>MAZABUKA CITY COUNCIL</h5>
+                                <h5 style={{ lineHeight: '90px' }} className='text-dark px-2 fw-bolder'>MAZABUKA CITY COUNCIL</h5>
                             </div>
                         </div>
                         <div className="">

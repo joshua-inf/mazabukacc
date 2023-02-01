@@ -1,6 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import image from '../../images/mayor1.jpg'
-import image1 from '../../images/maz1.jpg'
+import image1 from '../../images/project1.jpg'
 import image2 from '../../images/maz2.jpg'
 export function Mainhome() {
     return (
@@ -19,7 +19,7 @@ export function Mainhome() {
                             <Carousel.Item>
                                 <img
                                     className="d-block w-100"
-                                    src={image}
+                                    src={image1}
                                     alt="First slide"
                                 />
                             </Carousel.Item>
