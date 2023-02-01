@@ -13,7 +13,7 @@ export function ListNews(){
                         <hr/>
                         <div>
                             <div className="row">
-                                <div className="col-8">
+                                <div className="col-12 col-md-8 ">
                                     <div className="px-3">
                                         <div>
                                             <img alt="" src={image}  width='100%'/>
@@ -44,65 +44,40 @@ export function ListNews(){
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-4">
+                                <div className="col-4 d-md-block d-none">
                                     <div className="border ">
                                         <div className="bg-light py-3">
                                             <h3 className="text-uppercase fw-light  text-center">more stories</h3>
                                         </div>
                                         <div className="bg-light my-3">
                                             <div className="row ">
-                                                <div className="col-4">
+                                                <div className="col-md-12 col-lg-4">
                                                     <img alt="" src={image} width='100%'/>
                                                 </div>
-                                                <div className="col-8">
-                                                    <h5 className="fw-light">some heading</h5>
-                                                    <p className="fs-7">
-                                                    i ut aliquid ex ea commodi consequatur? Quis
-                                                 autem vel eum iure reprehen...<Link to='/mazabukacc/NewsList/4'>view</Link>
-                                                    </p>
+                                                <div className="col-lg-8 col-md-12 px-4">
+                                                    <div>
+                                                        <h5 className="fw-light">some heading</h5>
+                                                        <p className="fs-7">
+                                                        i ut aliquid ex ea commodi consequatur? Quis
+                                                        autem vel eum iure reprehen...<Link to='/mazabukacc/NewsList/4'>view</Link>
+                                                        </p>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                        <div className="bg-light my-3">
-                                            <div className="row ">
-                                                <div className="col-4">
+                                                
+                                            </div><div className="row ">
+                                                <div className="col-md-12 col-lg-4">
                                                     <img alt="" src={image} width='100%'/>
                                                 </div>
-                                                <div className="col-8">
-                                                    <h5 className="fw-light">some heading</h5>
-                                                    <p className="fs-7">
-                                                    i ut aliquid ex ea commodi consequatur? Quis
-                                                 autem vel eum iure reprehen...<Link to='/mazabukacc/NewsList/4'>view</Link>
-                                                    </p>
+                                                <div className="col-lg-8 col-md-12 px-4">
+                                                    <div>
+                                                        <h5 className="fw-light">some heading</h5>
+                                                        <p className="fs-7">
+                                                        i ut aliquid ex ea commodi consequatur? Quis
+                                                        autem vel eum iure reprehen...<Link to='/mazabukacc/NewsList/4'>view</Link>
+                                                        </p>
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                        <div className="bg-light my-3">
-                                            <div className="row ">
-                                                <div className="col-4">
-                                                    <img alt="" src={image} width='100%'/>
-                                                </div>
-                                                <div className="col-8">
-                                                    <h5 className="fw-light">some heading</h5>
-                                                    <p className="fs-7">
-                                                    i ut aliquid ex ea commodi consequatur? Quis
-                                                 autem vel eum iure reprehen...<Link to='/mazabukacc/NewsList/4'>view</Link>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="bg-light my-3">
-                                            <div className="row ">
-                                                <div className="col-4">
-                                                    <img alt="" src={image} width='100%'/>
-                                                </div>
-                                                <div className="col-8">
-                                                    <h5 className="fw-light">some heading</h5>
-                                                    <p className="fs-7">
-                                                    i ut aliquid ex ea commodi consequatur? Quis
-                                                 autem vel eum iure reprehen...<Link to='/mazabukacc/NewsList/4'>view</Link>
-                                                    </p>
-                                                </div>
+                                                
                                             </div>
                                         </div>
                                     </div>

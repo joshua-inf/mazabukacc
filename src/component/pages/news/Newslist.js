@@ -20,7 +20,7 @@ export function NewsList() {
                                     <div className='col-1 d-none d-sm-block'></div>
                                     <div className="col-12 col-xl-10 col-sm-10">
                                         <div className="row">
-                                            <div className="col-12 col-sm-4 py-2">
+                                            <div className="col-12 col-sm-6 col-md-4 py-2">
                                                 <div className="card">
                                                     <img alt="" src={image} className="card-img-top" />
                                                     <div className='d-flex px-2 justify-content-end'>
@@ -37,7 +37,7 @@ export function NewsList() {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="col-12 col-sm-4 py-2">
+                                            <div className="col-12 col-sm-6 col-md-4 py-2">
                                                 <div className="card">
                                                     <img alt="" src={image} className="card-img-top" />
                                                     <div className='d-flex px-2 justify-content-end'>
@@ -54,7 +54,7 @@ export function NewsList() {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className=" col-12 col-sm-4 py-2">
+                                            <div className=" col-12 col-sm-6 col-md-4 py-2">
                                                 <div className="card">
                                                     <img alt="" src={image} className="card-img-top" />
                                                     <div className='d-flex px-2 justify-content-end'>

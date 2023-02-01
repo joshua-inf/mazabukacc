@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import image from './images/water.jpg'
+import image from './images/eaglebg.jpg'
 import image1 from './images/mazlo.png'
 import { Link , NavLink } from 'react-router-dom';
 export function Nav() {
@@ -44,7 +44,7 @@ export function Nav() {
 
     return (
         <>
-            <div className="px-5 d-flex justify-content-end bg-dark py-2">
+            <div className="px-5 d-flex d-none justify-content-end bg-dark py-2">
                 <div className='d-flex justify-content-end'>
                     <a href='#link' className='btn py-1 btn-sm rounded-1 btn-outline-secondary mx-1'><i class="fa-brands fa-facebook"></i></a>
                     <a href='#link' className='btn py-1 btn-sm rounded-1 btn-outline-secondary mx-1'><i class="fa-brands fa-instagram"></i></a>
@@ -55,13 +55,13 @@ export function Nav() {
                     </div>
                 </div>
             </div>
-            <div className='' style={{ background: `url(${image}) no-repeat center`, backgroundSize: 'cover', backgroundPositionY: '10%' }}>
-                <div style={{ backgroundColor: 'rgba(0,0,0,.2)', height: '300px' }} className=" fw-bolder text-white px-3 py-5">
-                    <div className='d-flex flex-column'>
+            <div className=''>
+                <div style={{background:`url(${image}) center/100%`, backgroundSize:'fit', backgroundPositionY:'-700px', backgroundPositionX:'-400px'}} className=" fw-bolder text-white">
+                    <div className='d-flex py-4 px-sm-5 flex-column justify-content-between'>
                         <div className=''>
-                            <div className='d-sm-flex ' style={{ textAlign: 'center' }}>
+                            <div className='d-sm-flex ' style={{ textAlign: 'center'}}>
                                 <img alt='mazcclogo' src={image1} width='100px' />
-                                <h5 style={{ lineHeight: '90px' }} className='text-light px-2 fw-bolder'>MAZABUKA CITY COUNCIL</h5>
+                                <h5 style={{ lineHeight: '90px' }} className='text-secondary px-2 fw-bolder'>MAZABUKA CITY COUNCIL</h5>
                             </div>
                         </div>
                         <div className="">
