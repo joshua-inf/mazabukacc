@@ -1,8 +1,10 @@
+import { Nav } from '../../header'
 import image from '../../images/mg1.webp'
 
 export function ECE() {
     return (
         <>
+        <Nav />
             <div id='top'>
                 <div className="p-3">
                     <div className="row">

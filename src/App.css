@@ -118,3 +118,53 @@ a {
 .fs-7 {
   font-size: small;
 }
+
+
+
+
+
+
+/* news section styling */
+.news:hover{
+  box-shadow: 0px 0px 10px 0.1px black;
+  transition: 0.5s ease;
+}
+.news {
+  transition: 0.5s ease;
+  padding: 0;
+  cursor: pointer;
+}
+
+
+/* styling for the events section on home page */
+.event {
+  transition: 0.3s ease;
+}
+.event:hover {
+  background-color: #ddd;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* style for the payments section */
+.pay:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s ease;
+  justify-content: space-between;
+}
+.pay{
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+
+.event {
+  padding: 10px;
+  color: black;
+  transition: 0.5s ;
+}
+.event:hover {
+  background-color: #ddd;
+  transition: 0.5s ;
+}

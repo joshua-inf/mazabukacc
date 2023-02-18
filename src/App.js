@@ -10,6 +10,8 @@ import { ECE } from './component/pages/Services/ECE';
 import { Build } from './component/pages/Construction';
 import { NewsList } from './component/pages/news/Newslist';
 import { ListNews } from './component/pages/news/listNews';
+import Payment from './payments/PaymentMain';
+import ScrollToTop from './Scrolltotop';
 
 function App() {
 
@@ -33,9 +35,9 @@ function App() {
           </div>
           :
           <BrowserRouter>
+          <ScrollToTop/>
           <div className='d-flex flex-column'>
-            <Nav />
-            <div className='mt-5'>
+            <div className=''>
               <Routes>
                 <Route path='mazabukacc/' element={<Home />} />
                 <Route path='mazabukacc/services/marriages' element={<Marriage />} />
@@ -43,6 +45,7 @@ function App() {
                 <Route path='mazabukacc/services/link' element={<Build/>} />
                 <Route path='mazabukacc/NewsList' element={<NewsList/>} />
                 <Route path='mazabukacc/NewsList/:id' element={<ListNews/>} />
+                <Route path='mazabukacc/epay' element={<Payment/>}/>
               </Routes>
             </div>
             <Footer/>

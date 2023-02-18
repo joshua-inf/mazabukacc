@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
+import { Nav } from "../../header";
 import image from '../../images/mg.webp'
 import image1 from '../../images/poster.jpg'
 
 export function Marriage() {
     return (
         <>
+        <Nav />
             <div>
                 <div className="p-3">
                     <div className="row">

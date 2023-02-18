@@ -8,6 +8,7 @@ export function NewsList() {
     return (
         <>
             <div>
+                <Link className="btn mx-5 mt-2 btn-outline-secondary" to='/mazabukacc/'>back</Link>
                 <div className='py-5'>
                     <div>
                         <h3 className='text-uppercase display-3 text-center'>news titles</h3>
