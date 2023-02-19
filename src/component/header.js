@@ -79,7 +79,7 @@ export function Nav() {
                     <button id='show' onClick={show} className='btn btn-lg btn-outline-secondary '><i class="fa-solid fa-bars"></i></button>
                 </div>
                 <ul id='lists' className="lists justify-content-sm-evenly">
-                    <li><NavLink id='a' to='mazabukacc/'>home</NavLink></li>
+                    <li><NavLink id='a' to='/mazabukacc/'>home</NavLink></li>
                     <li>
                         <Link id='a' className='link' >
                             services
@@ -92,11 +92,11 @@ export function Nav() {
                                                 <hr className='text-dark' />
                                                 <ul>
                                                     <li>
-                                                        <NavLink id='link' to='mazabukacc/services/marriages'>Marriages</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/marriages'>Marriages</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <NavLink id='link' to='mazabukacc/services/earlyChildEducation#top'>Early Childhood Education</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/earlyChildEducation#top'>Early Childhood Education</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
@@ -239,7 +239,7 @@ export function Nav() {
                 </ul>
                 {hidebtn && (
                     <div id='btn' className='py-3 d-sm-block'>
-                        <button className='btn mx-1 btn-sm btn-outline-warning'>Epay</button>
+                        <Link to='/mazabukacc/epay' className='btn mx-1 btn-sm btn-outline-warning'>Epay</Link>
                         <button className='btn mx-1 btn-sm btn-outline-warning'>Eservice</button>
                     </div>
                 )}

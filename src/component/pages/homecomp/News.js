@@ -5,9 +5,9 @@ const News = () => {
     const Newscon = () => {
         return (
             <>
-                <div className="bg-light col-4">
+                <div className="bg-light col-6 col-sm-6 col-md-4 py-4">
                     <div className='news '>
-                        <div className="" style={{height:'150px ', overflow:'hidden'}}>
+                        <div className="" style={{}}>
                             <img alt='' src={image} width='100%' />
                         </div>
                         <div className=''>

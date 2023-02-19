@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faArrowRight, faHouse, faNewspaper, faShop } from "@fortawesome/free-solid-svg-icons"
 import { Link } from "react-router-dom"
+import image1 from '../component/images/mazlo.png'
 import image from '../component/images/maz.jpg'
 
 const Payment = () => {
@@ -9,7 +10,7 @@ const Payment = () => {
         return (
             <>
                 <div className="p-3">
-                    <div className="text-center pay rounded" style={{position:'relative'}}>
+                    <div className="text-center pay shadow rounded" style={{position:'relative'}}>
                         <div style={{}}>
                             <div style={{ fontSize: '60px' }}>
                                 {props.icon}
@@ -19,11 +20,12 @@ const Payment = () => {
                                     {props.name}
                                 </h4>
                             </div>
-                            <div>
+                            <div className="p-3">
                                 <p>
                                     Titie here Titie here Titie here Titie 
                                 </p>
-                            </div></div>
+                            </div>    
+                        </div>
                     </div>
 
                 </div>
@@ -33,7 +35,7 @@ const Payment = () => {
     return (
         <>  <div className="m-2">
 
-            <Link to='/mazabukacc' className="text-center"><FontAwesomeIcon icon={faHouse} size="xl"/><br/>home</Link>
+            <Link to='/mazabukacc' className="text-center text-black text-uppercase fw-bold"><img className="mx-3" src={image1} alt='$' width='50px'/>mazabuka muniiple council</Link>
         </div>
             <div>
                 <div>
@@ -43,45 +45,46 @@ const Payment = () => {
                     </div>
                     <div className="p-3">
                         <div className="row">
-                            <div className="col-2"></div>
-                            <div className="col-8">
-                                <div className="pb-5 d-flex flex-column justify-content-between shadow rounded-4" style={{backgroundColor:'white', minHeight:'75vh'}}>
-                                    <div className="text-center text-uppercase py-4">
-                                        <h3>with E-pay you can pay for</h3>
+                            <div className="col-sm-1 col-md-2"></div>
+                            <div className="col-md-8 col-12">
+                                <div className="pb-5 d-flex border-top border-5 border-danger flex-column justify-content-between rounded-4" style={{backgroundColor:'white', minHeight:'75vh'}}>
+                                    <div className="px-5 pt-4">
+                                        <h3 className="text-uppercase ">with E-pay you can pay for</h3>
+                                        <p className="my-0 fs-7">below are some of the services that you can pay for using E-payments.</p>
                                     </div>
                                     <hr className="mx-5 mt-0"/>
                                     <div className="row">
-                                        <div className="col-4" style={{position:'relative'}}>
+                                        <div className="col-12 col-md-4 col-sm-6 " style={{position:'relative'}}>
                                             <Pay name='name' icon={<FontAwesomeIcon icon={faShop} />}/>
                                         </div>
-                                        <div className="col-4">
+                                        <div className="col-12 col-md-4 col-sm-6">
                                             <Pay name='name' icon={<FontAwesomeIcon icon={faHouse}/>}/>
                                         </div>
-                                        <div className="col-4">
+                                        <div className="col-12 col-md-4 col-sm-6">
                                             <Pay name='name' icon={<FontAwesomeIcon icon={faNewspaper}/>} />
                                         </div>
                                     </div>
                                     <div className="row">
-                                    <div className="col-2">
+                                    <div className="col-md-2">
                                         </div>
-                                        <div className="col-4" style={{position:'relative'}}>
+                                        <div className="col-12 col-md-4 col-sm-6" style={{position:'relative'}}>
                                             <Pay name='name' icon={<FontAwesomeIcon icon={faShop} />}/>
                                         </div>
-                                        <div className="col-4">
+                                        <div className="col-12 col-md-4 col-sm-6">
                                             <Pay name='name' icon={<FontAwesomeIcon icon={faHouse}/>}/>
                                         </div>
-                                        <div className="col-2">
+                                        <div className="">
                                         </div>
                                     </div>
-
+<hr className="mx-5 m-0"/>
                                     <div className="text-center mt-5 ">
                                         <h5 className="fs-7 m-0 fw-light"></h5>
-                                        <button className="btn px-5 py-4 btn-lg text-uppercase btn-outline-secondary rounded-0">Make Payment<FontAwesomeIcon icon={faArrowRight}/></button>
+                                        <button className="btn border-1 px-5 py-4 btn-lg text-uppercase btn-outline-secondary rounded-0">Make Payment<FontAwesomeIcon icon={faArrowRight}/></button>
                                         <h5 className="fs-7 m-0 fw-light">click above to make payment or click <Link className="text-uppercase">here</Link> to check other option?</h5>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-2"></div>
+                            <div className="col-sm-1 col-md-2"></div>
                         </div>
                     </div>
                 </div>
