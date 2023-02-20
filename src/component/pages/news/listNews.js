@@ -9,8 +9,7 @@ export function ListNews(){
             <div>
                 <div>
                     <div className="px-4">
-                        <Link className="btn mt-2 btn-outline-secondary" to='/mazabukacc/NewsList'>back</Link>
-                        <hr/>
+                        <Link className="btn my-2 btn-outline-secondary" to='/mazabukacc/NewsList'>back</Link>
                         <div>
                             <div className="row">
                                 <div className="col-12 col-md-8 ">

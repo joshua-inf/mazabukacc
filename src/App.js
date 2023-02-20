@@ -12,6 +12,7 @@ import { NewsList } from './component/pages/news/Newslist';
 import { ListNews } from './component/pages/news/listNews';
 import Payment from './payments/PaymentMain';
 import ScrollToTop from './Scrolltotop';
+import { motion } from 'framer-motion';
 
 function App() {
 
@@ -36,7 +37,8 @@ function App() {
           :
           <BrowserRouter>
           <ScrollToTop/>
-          <div className='d-flex flex-column'>
+          
+          <motion.div initial={{opacity: 0}} animate={{opacity: 1, transition: {duration: 2}}} className='d-flex flex-column'>
             <div className=''>
               <Routes>
                 <Route path='mazabukacc/' element={<Home />} />
@@ -49,7 +51,7 @@ function App() {
               </Routes>
             </div>
             <Footer/>
-          </div>
+          </motion.div>
           </BrowserRouter>
         }
       </div>

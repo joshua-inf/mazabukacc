@@ -35,7 +35,7 @@ const Payment = () => {
     return (
         <>  <div className="m-2">
 
-            <Link to='/mazabukacc' className="text-center text-black text-uppercase fw-bold"><img className="mx-3" src={image1} alt='$' width='50px'/>mazabuka muniiple council</Link>
+            <Link to='/mazabukacc/' className="text-center text-black text-uppercase fw-bold"><img className="mx-3" src={image1} alt='$' width='50px'/>mazabuka muniiple council</Link>
         </div>
             <div>
                 <div>
