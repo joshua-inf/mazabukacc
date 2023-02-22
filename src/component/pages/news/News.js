@@ -3,6 +3,7 @@ import Image2 from './newsimg/2.jpeg'
 import Image3 from './newsimg/3.jpg'
 import Image4 from './newsimg/4.jpg'
 import Image5 from './newsimg/5.jpg'
+import Image6 from './newsimg/6.jpg'
 
 
 const News = [
@@ -40,6 +41,13 @@ const News = [
         news: 'THE Anti-Corruption Commission - ACC Assistant Director for Public Education has asked the media fraternity to participate in the fight against corruption and not be spectators. Rabecca Mulengwa said this Monday Morning when she officially opened the Southern Province Media Workshop on Anti-Corruption awareness in Livingstone. Mulengwa noted that the meeting is meant to build capacity of the media when reporting on issues pertaining to the corruption fight in the country. She notes that the media globally is expected to be more knowledgeable about corruption and also bring to light the adverse effects of corruption on the social and economic development of the country. Mulengwa notes that the media plays a critical role in disseminating information and raising awareness on what the public can do to prevent corruption.         Meanwhile, Southern Province Information Officer Priscilla Simukoko stated that the role of the media in the fight against corruption is crucial. Simukoko notes that the media is a watchdog for corruption yet very few pursue corruption cases because they lack the skill. She has asked the commission to frequently engage the media in training. The 3 day’s workshop at Namakau Lodge has drawn participation from journalists from both private and public media in the southern region.',
         image: Image5,
         newsId: 5
+    },
+    {
+        header: 'MAZABUKA COUNCIL STARTS BUYING DESKS',
+        auther: 'Evans Liyali ',
+        news: `MAZABUKA Mayor, Vincent Lilanda, has disclosed that the Local Authority has started the process of procuring desks for schools in the district. This came to light during the commissioning of a one-by-three class room block at Hanjalika Primary School, Monday. Lilanda explained that the desks are being procured using an allocation from Constituency Development Funds - CDF for both Mazabuka Central and Magoye. The Mayor, who did not state the number of desks procured thus far, noted that the move is aimed at mitigating shortage of furniture in schools. Meanwhile, Hanjalika Primary School Head-teacher, Ivesy Milimo, appealed to government and the CDF committee to give his institution desks in a timely manner. He noted that some pupils are sitting on the floor due to shortage of desks as a result of the increase in enrollment attributed to the Free Education Policy. For more details, tune in to Byta FM 90.3/100.3/101.9 or  http://radio.garden/listen/byta-fm-zambia/YsDAFNNN  `,
+        image: Image6,
+        newsId: 6
     }
 ]
 

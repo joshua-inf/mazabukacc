@@ -29,8 +29,6 @@ export function NewsList() {
             </>
         )
     }
-    let words = ' Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo nventore veritatis et quasi architecto beatae vitae dicta sunt explica bo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit a ut fugit, sed quia consequuntur magni dolores eos qui ratione voluptate m sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaer'
-    let result = words.substring(0, 100) + '...';
     return (
         <>
             <div className='px-4'>

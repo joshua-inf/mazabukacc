@@ -18,7 +18,7 @@ const Newss = () => {
     const Newscon = (props) => {
         return (
             <>
-                <div className="bg-light col-6 col-sm-6 col-md-4 py-4">
+                <div className="bg-light col-12 col-sm-6 col-md-4 py-4">
                     <div className='news '>
                         <Link className='text-black' to={'/NewsList/'+props.link}>
                             <div className="text-center" style={{height:'200px'}}>
@@ -43,7 +43,7 @@ const Newss = () => {
             <div className="">
                 <div>
                     <div className='row'>
-                       <Value  value={News.length+2-News.length}/>
+                       <Value  value={News.length}/>
                        <Value  value={News.length+1-News.length}/>
                        <Value  value={News.length-2}/>
                     </div>

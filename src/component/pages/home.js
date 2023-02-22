@@ -4,6 +4,10 @@ import { Mainhome } from "./homecomp/mainhome";
 import Newss from "./homecomp/News";
 
 export function Home(){
+    const obj = {
+        name: 'hello hello hello hello hello hello hello <br/> hello hello hello hello hello'
+    }
+
     return (
         <>
             <div className=" p-3">
@@ -38,6 +42,7 @@ export function Home(){
                                             <hr/>
                                             <hr/>
                                                 <Newss/>
+                                            
                                         </div>
                                     </div>
                                 </div>
