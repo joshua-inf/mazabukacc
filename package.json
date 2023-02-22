@@ -1,6 +1,5 @@
 {
   "name": "frontends",
-  "homepage": "https://joshua-inf.github.io/mazabukacc",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
