@@ -2,12 +2,10 @@ import { Nav } from "../header";
 import { Events } from "./homecomp/Ezvents";
 import { Mainhome } from "./homecomp/mainhome";
 import Newss from "./homecomp/News";
-import News from "./homecomp/News";
 
 export function Home(){
     return (
         <>
-        <Nav />
             <div className=" p-3">
                 <div className="">
                     <div className="row">

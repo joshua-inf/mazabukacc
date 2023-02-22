@@ -6,20 +6,19 @@ import Image5 from './newsimg/5.jpg'
 
 
 const News = [
-   
+    {
+        header: 'CDF NOT FAVOURING PERSONS WITH DISABILITIES - MULENGA',
+        auther: 'Michael Nyumbu',
+        news: `ZAMBIA Union for Persons with Disabilities President has charged that the current set up of Constituency Development Fund - CDF management is unfair to people with disabilities Speaking in an interview with Byta FM News in Livingstone, Tuesday, Pascal Mulenga, has noted the need for Parliament to design a specific CDF Policy to carter to the needs of persons with disabilities. Mulenga explains that currently, persons with disabilities are finding it very difficult to access CDF due to reasons ranging from lack of enough sensitization to non-friendly guidelines. He fears that persons with disabilities are likely not to benefit anything from CDF if they are not provided with a package specifically designed for them. And Livingstone’s Sekute Ward Councilor, John Simulinda, says the vastness of Katombola Ward is posing a challenge to persons with disabilities to access CDF due to mobility issues. He explained that it is difficult for the disabled to move to the Civic Centre on the wheelchair to access CDF.`,
+        image: Image,
+        newsId: 1
+    },
     {
         header: 'CHIEF HANJALIKA APPEALS TO MOTHERS TO DELIVER IN HEALTH CARE FACILITIES',
         auther: 'Evans Liyali ',
         news: 'CHIEF Hanjalika of the Tonga speaking people of Mazabuka has encouraged expecting mothers to deliver from health facilities. The traditional ruler observes that majority of expecting mothers in his chiefdom still deliver from home despite the area having a number of health facilities. Hanjalika who was speaking to Byta FM News on the sidelines of the commissioning of a Maternity Wing at Magoye Rural Health Center, Monday, encouraged men to ensure that their wives deliver from hospital to reduce on maternal and infant death. And one of the community members, Melody Mutinta, has thanked the Constituency Development Fund-CDF Committee for advocating for the construction of a Maternity Ward at Magoye Rural Health Centers. Mutinta says the development will enhance the provision of maternity health in the area.',
         image: Image2,
         newsId: 2
-    },
-    {
-        header: 'CDF NOT FAVOURING PERSONS WITH DISABILITIES - MULENGA',
-        auther: 'Michael Nyumbu',
-        news: 'ZAMBIA Union for Persons with Disabilities President has charged that the current set up of Constituency Development Fund - CDF management is unfair to people with disabilities Speaking in an interview with Byta FM News in Livingstone, Tuesday, Pascal Mulenga, has noted the need for Parliament to design a specific CDF Policy to carter to the needs of persons with disabilities.Mulenga explains that currently, persons with disabilities are finding it very difficult to access CDF due to reasons ranging from lack of enough sensitization to non-friendly guidelines. He fears that persons with disabilities are likely not to benefit anything from CDF if they are not provided with a package specifically designed for them. And Livingstone’s Sekute Ward Councilor, John Simulinda, says the vastness of Katombola Ward is posing a challenge to persons with disabilities to access CDF due to mobility issues. He explained that it is difficult for the disabled to move to the Civic Centre on the wheelchair to access CDF.',
-        image: Image,
-        newsId: 1
     },
     {
         header: 'DISTRIBUTE FARMING INPUTS EARLY - MWIINDE ',

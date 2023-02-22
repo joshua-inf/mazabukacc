@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
-import image from '../../images/picture.jpg'
-import image1 from '../../images/poster.jpg'
+import image1 from '../../images/mazban.jpg'
 export function Events() {
 
     const Event = () => {
