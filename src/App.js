@@ -42,7 +42,7 @@ function App() {
                 <Nav />
                 <div className=''>
                   <Routes>
-                    <Route path='mazabukacc/' element={<Home />} />
+                    <Route path='/' element={<Home />} />
                     <Route path='mazabukacc/services/marriages' element={<Marriage />} />
                     <Route path='mazabukacc/services/earlyChildEducation' element={<ECE />} />
                     <Route path='mazabukacc/services/link' element={<Build />} />
