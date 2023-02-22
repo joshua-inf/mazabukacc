@@ -29,13 +29,13 @@ export function Nav() {
     let hidebt = document.getElementById('hide')
 
     function hide() {
-        lists.style.display = 'none'
+        lists.style.height = '0'
         showbtn.style.display = 'block'
         hidebt.style.display = 'none'
     }
 
     function show() {
-        lists.style.display = 'flex'
+        lists.style.height = '150px'
         hidebt.style.display = 'block'
         showbtn.style.display = 'none'
     }
