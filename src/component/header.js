@@ -56,12 +56,12 @@ export function Nav() {
                 </div>
             </div>
             <div className=''>
-                <div style={{background:`url(${image}) center/100%`, backgroundSize:'fit', backgroundPositionY:'-700px', backgroundPositionX:'-400px'}} className=" fw-bolder text-white">
+                <div style={{background:`url(${image}) center/50%`, backgroundSize:'fit', backgroundPositionY:'-700px', backgroundPositionX:'-400px'}} className=" fw-bolder text-white">
                     <div className='d-flex py-4 px-sm-5 flex-column justify-content-between'>
                         <div className=''>
                             <div className='d-sm-flex ' style={{ textAlign: 'center'}}>
                                 <img alt='mazcclogo' src={image1} width='100px' />
-                                <h5 style={{ lineHeight: '90px' }} className='text-dark px-2 fw-bolder'>MAZABUKA CITY COUNCIL</h5>
+                                <h5 style={{ lineHeight: '90px' }} className='text-dark px-2 fw-bolder fs-1'>MAZABUKA CITY COUNCIL</h5>
                             </div>
                         </div>
                         <div className="">

@@ -1,6 +1,7 @@
 import { Nav } from "../header";
 import { Events } from "./homecomp/Ezvents";
 import { Mainhome } from "./homecomp/mainhome";
+import Newss from "./homecomp/News";
 import News from "./homecomp/News";
 
 export function Home(){
@@ -38,7 +39,7 @@ export function Home(){
                                             <h3 className="mt-5 text-uppercase">NEWS AND OTHER ARTICLES</h3>
                                             <hr/>
                                             <hr/>
-                                                <News/>
+                                                <Newss/>
                                         </div>
                                     </div>
                                 </div>
