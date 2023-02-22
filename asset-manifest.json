@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mazabukacc/static/css/main.54e6c5e5.css",
-    "main.js": "/mazabukacc/static/js/main.d4d6cbf2.js",
+    "main.js": "/mazabukacc/static/js/main.81852d4b.js",
     "static/js/787.1904e148.chunk.js": "/mazabukacc/static/js/787.1904e148.chunk.js",
     "static/media/bgpay.jpg": "/mazabukacc/static/media/bgpay.aefaf02ef81779f18cf0.jpg",
     "static/media/ring.jpg": "/mazabukacc/static/media/ring.a8e6292186fe1ae8aaee.jpg",
@@ -22,11 +22,11 @@
     "static/media/eaglebg.jpg": "/mazabukacc/static/media/eaglebg.601abac69c794e48f1a1.jpg",
     "index.html": "/mazabukacc/index.html",
     "main.54e6c5e5.css.map": "/mazabukacc/static/css/main.54e6c5e5.css.map",
-    "main.d4d6cbf2.js.map": "/mazabukacc/static/js/main.d4d6cbf2.js.map",
+    "main.81852d4b.js.map": "/mazabukacc/static/js/main.81852d4b.js.map",
     "787.1904e148.chunk.js.map": "/mazabukacc/static/js/787.1904e148.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54e6c5e5.css",
-    "static/js/main.d4d6cbf2.js"
+    "static/js/main.81852d4b.js"
   ]
 }
