@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/mazabukacc/static/css/main.54e6c5e5.css",
-    "main.js": "/mazabukacc/static/js/main.dc4c82e1.js",
+    "main.js": "/mazabukacc/static/js/main.d4d6cbf2.js",
     "static/js/787.1904e148.chunk.js": "/mazabukacc/static/js/787.1904e148.chunk.js",
     "static/media/bgpay.jpg": "/mazabukacc/static/media/bgpay.aefaf02ef81779f18cf0.jpg",
+    "static/media/ring.jpg": "/mazabukacc/static/media/ring.a8e6292186fe1ae8aaee.jpg",
+    "static/media/mazban.jpg": "/mazabukacc/static/media/mazban.40512e037231393488db.jpg",
     "static/media/mazlo.png": "/mazabukacc/static/media/mazlo.701869e0868e7f29cd91.png",
-    "static/media/poster.jpg": "/mazabukacc/static/media/poster.51e8efd9f9e15396b3c3.jpg",
     "static/media/project1.jpg": "/mazabukacc/static/media/project1.beadd7cdf650a59e7601.jpg",
     "static/media/wasting_time.gif": "/mazabukacc/static/media/wasting_time.a763fb0901ffb491be3d.gif",
     "static/media/mayor1.jpg": "/mazabukacc/static/media/mayor1.cf3df5b35eba242656cf.jpg",
@@ -14,20 +15,18 @@
     "static/media/maz2.jpg": "/mazabukacc/static/media/maz2.9a9fbb9356d8dd7b252a.jpg",
     "static/media/2.jpeg": "/mazabukacc/static/media/2.f6d25e4ac4b80466a955.jpeg",
     "static/media/1.jpg": "/mazabukacc/static/media/1.56e1d753d7f7806b5702.jpg",
-    "static/media/picture.jpg": "/mazabukacc/static/media/picture.c8ec94d124600fbbadf8.jpg",
     "static/media/3.jpg": "/mazabukacc/static/media/3.a76f7b44ec3db2d32732.jpg",
     "static/media/riots.jpeg": "/mazabukacc/static/media/riots.e8e8ea5c93d64de6e1c0.jpeg",
     "static/media/5.jpg": "/mazabukacc/static/media/5.5404ee925ca81a73bcf9.jpg",
     "static/media/mg1.webp": "/mazabukacc/static/media/mg1.3eaac4e50135eb458495.webp",
     "static/media/eaglebg.jpg": "/mazabukacc/static/media/eaglebg.601abac69c794e48f1a1.jpg",
-    "static/media/mg.webp": "/mazabukacc/static/media/mg.96a24ac3c629d749a35a.webp",
     "index.html": "/mazabukacc/index.html",
     "main.54e6c5e5.css.map": "/mazabukacc/static/css/main.54e6c5e5.css.map",
-    "main.dc4c82e1.js.map": "/mazabukacc/static/js/main.dc4c82e1.js.map",
+    "main.d4d6cbf2.js.map": "/mazabukacc/static/js/main.d4d6cbf2.js.map",
     "787.1904e148.chunk.js.map": "/mazabukacc/static/js/787.1904e148.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.54e6c5e5.css",
-    "static/js/main.dc4c82e1.js"
+    "static/js/main.d4d6cbf2.js"
   ]
 }
