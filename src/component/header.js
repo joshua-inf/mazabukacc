@@ -121,7 +121,7 @@ export function Nav() {
 
                                                     </li>
                                                     <li>
-                                                        <NavLink id='link' to='mazabukacc/services/link'>Hire NavLink venue</NavLink>
+                                                        <NavLink id='link' to='mazabukacc/services/link'>Lisumpuko Hall Hire</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>

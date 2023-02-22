@@ -1,9 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faArrowRight, faHouse, faNewspaper, faMessage, faSackDollar, faBriefcase, faUserTie } from "@fortawesome/free-solid-svg-icons"
+import { faArrowRight, faNewspaper, faMessage, faSackDollar, faBriefcase, faUserTie } from "@fortawesome/free-solid-svg-icons"
 import { Link } from "react-router-dom"
 import image1 from '../component/images/mazlo.png'
-import image from '../component/images/mazz.jpg'
-import image2 from '../component/icons/moneyhouse.png'
+import image from '../component/images/bgpay.jpg'
 
 const Payment = () => {
 
@@ -40,7 +39,7 @@ const Payment = () => {
             <div>
                 <div>
                     <div style={{ height: '200px' }}>
-                        <div style={{ height: '350px', background: `url(${image}) no-repeat`, backgroundSize: '100%', backgroundPositionY: '20%' }}>
+                        <div style={{ height: '350px', background: `url(${image}) no-repeat center`, backgroundSize: 'cover', backgroundPositionY: 'center' }}>
                         </div>
                     </div>
                     <div className="p-3">
