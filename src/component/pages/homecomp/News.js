@@ -20,7 +20,7 @@ const Newss = () => {
             <>
                 <div className="bg-light col-6 col-sm-6 col-md-4 py-4">
                     <div className='news '>
-                        <Link className='text-black' to={'/mazabukacc/NewsList/'+props.link}>
+                        <Link className='text-black' to={'/NewsList/'+props.link}>
                             <div className="text-center" style={{height:'200px'}}>
                                 <img alt='' src={props.image} style={{maxWidth:'100%', height:'100%'}} />
                             </div>
@@ -49,7 +49,7 @@ const Newss = () => {
                     </div>
                 </div>
                 <div className='d-flex justify-content-end'>
-                    <Link to='/mazabukacc/NewsList' className=' text-uppercase'>view more</Link>
+                    <Link to='/NewsList' className=' text-uppercase'>view more</Link>
                 </div>
                 <hr className='my-2' />
             </div>
