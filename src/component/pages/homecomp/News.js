@@ -1,4 +1,3 @@
-import image from '../../images/riots.jpeg'
 import { Link } from 'react-router-dom'
 import News from '../news/News'
 
@@ -38,13 +37,17 @@ const Newss = () => {
             </>
         )
     }
+
+
+
+
     return (
         <>
             <div className="">
                 <div>
                     <div className='row'>
                        <Value  value={News.length}/>
-                       <Value  value={News.length+1-News.length}/>
+                       <Value  value={2}/>
                        <Value  value={News.length-2}/>
                     </div>
                 </div>

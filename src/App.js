@@ -13,6 +13,7 @@ import { ListNews } from './component/pages/news/listNews';
 import Payment from './payments/PaymentMain';
 import ScrollToTop from './Scrolltotop';
 import { motion } from 'framer-motion';
+import Events from './component/pages/Events/Events';
 
 function App() {
 
@@ -49,6 +50,7 @@ function App() {
                     <Route path='/NewsList' element={<NewsList />} />
                     <Route path='/NewsList/:id' element={<ListNews />} />
                     <Route path='/epay' element={<Payment />} />
+                    <Route path='/Events/:id' element={<Events />} />
                   </Routes>
                 </div>
                 <Footer />

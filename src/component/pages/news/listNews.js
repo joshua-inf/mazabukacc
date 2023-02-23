@@ -1,12 +1,18 @@
 import { Link, useParams } from "react-router-dom"
-import image from '../../images/cutting.jpg'
 import News from "./News";
-import { NewsList } from "./Newslist";
-
+import parse from 'html-react-parser'
+import { useEffect, useState } from "react";
 export function ListNews() {
     let { id } = useParams();
     let obj = News.filter((item) => item.newsId == id)
     let SideList = News.filter((item) => item.newsId != id)
+
+    const [html, setHtml] = useState("")
+    useEffect(()=>{
+        setHtml("<h1>hello</h1>")
+    },[html])
+
+  
 
     return (
         <>
@@ -33,7 +39,7 @@ export function ListNews() {
                                                     </div>
                                                     <div style={{ textAlign: 'justify', textJustify: 'inter-word' }}>
                                                         <p>
-                                                            {n.news}
+                                                            {parse(n.news)}
                                                         </p>
                                                     </div>
                                                 </div>

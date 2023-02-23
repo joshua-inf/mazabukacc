@@ -82,6 +82,70 @@ export function Nav() {
                     <li><NavLink id='a' to='/'>home</NavLink></li>
                     <li>
                         <Link id='a' className='link' >
+                            about
+                            <div style={{ position: 'absolute', left: '0', right: '0', backgroundColor: 'rgba(255,255,255)' }} className='text-white shadow service' >
+                                <div className='px-3'>
+                                    <div className='row p-3'>
+                                        <div className='col-12 col-sm-6 col-md-4 col-lg-3'>
+                                            <div className='p-2'>
+                                                <h4 className='text-dark d-flex justify-content-center'>About us</h4>
+                                                <hr className='text-dark' />
+                                                <ul>
+                                                    <li>
+                                                        <NavLink id='link' to='/services/link'>About MCC</NavLink>
+                                                        <div className='underline'></div>
+                                                    </li>
+                                                    <li>
+                                                        <NavLink id='link' to='/services/link'>About Clerk</NavLink>
+                                                        <div className='underline'></div>
+                                                    </li>
+                                                    <li>
+                                                        <NavLink id='link' to='/services/link'>The Mayor</NavLink>
+                                                        <div className='underline'></div>
+                                                    </li>
+                                                    <li>
+                                                        <NavLink id='link' to='/services/link'>Councilors</NavLink>
+                                                        <div className='underline'></div>
+                                                    </li>
+                                                    <li>
+                                                        <NavLink id='link' to='/services/link'>Standing Committes</NavLink>
+                                                        <div className='underline'></div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div className='col-12 col-sm-6 col-md-4 col-lg-3'>
+                                            <div className='p-2'>
+                                                <h4 className='text-dark d-flex justify-content-center'>About maz</h4>
+                                                <hr className='text-dark' />
+                                                <ul>
+                                                    <li>
+                                                        <NavLink id='link' to='/services/link'>Attractions</NavLink>
+                                                        <div className='underline'></div>
+
+                                                    </li>
+                                                    <li>
+                                                        <NavLink id='link' to='/services/link'>Hospitals</NavLink>
+                                                        <div className='underline'></div>
+                                                    </li>
+                                                    <li>
+                                                        <NavLink id='link' to='/services/link'>Police Stations</NavLink>
+                                                        <div className='underline'></div>
+                                                    </li>
+                                                    <li>
+                                                        <NavLink id='link' to='/services/link'>Fire Department</NavLink>
+                                                        <div className='underline'></div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </Link></li>
+                    <li></li>
+                    <li>
+                        <Link id='a' className='link' >
                             services
                             <div style={{ position: 'absolute', left: '0', right: '0', backgroundColor: 'rgba(255,255,255)' }} className='text-white shadow service' >
                                 <div className='px-3'>

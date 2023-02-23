@@ -1,19 +1,21 @@
 import { Link } from 'react-router-dom'
 import image1 from '../../images/mazban.jpg'
+import Eventslist from '../Events/Eventslist'
 export function Events() {
 
-    const Event = () => {
+
+    const Event = (props) => {
         return (
             <>
-            <Link>
+            <Link to={'Events/'+props.id}>
                 <div className="event my-2 border-secondary rounded">
                     <div className=''>
                         <div>
-                            <h5>some event</h5>
+                            <h5>{props.head}</h5>
                         </div>
                         <div>
                             <p style={{ fontSize: '10px' }}>
-                                SOME DATE HERE SOME DATE HERE SOME DATE HERE SOME DATE HERE SOME DATE HERE SOME DATE HERE
+                               {props.txt}
                             </p>
                         </div>
                     </div>
@@ -22,6 +24,7 @@ export function Events() {
             </>
         )
     }
+
 
 
     return (
@@ -33,9 +36,11 @@ export function Events() {
                             <h4 className="text-white d-flex justify-content-center" style={{ textTransform: 'uppercase', fontWeight: 'bolder' }}>Events</h4>
                         </div>
                         <div className=''>
-                            <Event />
-                            <Event />
-                            <Event />
+                            {Eventslist.map((n)=>(
+                                <>
+                                    <Event id={n.eventId} head={n.eventhead} txt={n.eventetxt.substring(0, 120)+'...'} />
+                                </>
+                            ))}
                         </div>
 
                     </div>

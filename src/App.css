@@ -1,10 +1,10 @@
 a {
   text-decoration: none;
 }
-.active {
+.navs .active {
   opacity: 0.6;
 }
-.active .underline {
+.navs .active .underline {
   width: 100px;
 }
 .navs {
@@ -174,3 +174,5 @@ a {
   background-color: #ddd;
   transition: 0.5s ;
 }
+
+
