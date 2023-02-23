@@ -1,4 +1,5 @@
 import image from '../images/mazlo.png'
+import image1 from '../images/logo.png'
 export function Footer() {
     return (
         <>
@@ -45,15 +46,17 @@ export function Footer() {
                         </div> 
                     </div>
                     <div>
+                        
                         <div className='d-flex flex-column text-white h3 p-3 '>
-                            <h5 className='fw-light text-uppercase text-center'>socials</h5>
-                            <hr className='text-white'/>
                             <div className='d-flex h4 justify-content-center'>
                             <a href='#link' className='mx-3'><i class="fa-brands fa-facebook"></i></a>
                             <a href='#link' className='mx-3'><i class="fa-brands fa-instagram"></i></a>
                             <a href='' className='mx-3'><i class="fa-brands fa-twitter"></i></a>
                             </div>
                         </div>
+                    </div>
+                    <div className='d-flex justify-content-center'>
+                        <div className=' d-flex p-4 text-center flex-column text-white'><h4 className='fs-6 fw-light'>created by</h4> <img src={image1} width='300px' /></div>
                     </div>
                 </div>
             </div>
