@@ -3,8 +3,16 @@ import { faArrowRight, faNewspaper, faMessage, faSackDollar, faBriefcase, faUser
 import { Link } from "react-router-dom"
 import image1 from '../component/images/mazlo.png'
 import image from '../component/images/bgpay.jpg'
+import UsingHooks from './UsingHooks'
+
+import { FlutterWaveButton, closePaymentModal } from 'flutterwave-react-v3';
 
 const Payment = () => {
+  
+
+
+     
+    
 
     const Pay = (props) => {
         return (
@@ -76,12 +84,6 @@ const Payment = () => {
                                         </div>
                                     </div>
                                     <hr className="mx-5 m-0" />
-
-
-
-
-
-
                                     <div className="text-center mt-5 ">
                                         <h5 className="fs-7 m-0 fw-light"></h5>
                                         <button className="btn border-1 px-5 py-4 btn-lg text-uppercase btn-outline-secondary rounded-0">Make Payment<FontAwesomeIcon icon={faArrowRight} /></button>
@@ -93,6 +95,8 @@ const Payment = () => {
                         </div>
                     </div>
                 </div>
+                <UsingHooks/>
+
             </div>
         </>
     )
