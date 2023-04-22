@@ -66,7 +66,7 @@ export function Nav() {
                         </div>
                         <div className="">
                             <div className='d-flex justify-content-sm-end justify-content-center '>
-                                <Link to='/Epay' className="btn  btn-lg fw-bold btn-warning mx-2">Epay</Link>
+                                <Link to='/mazabukacc/Epay' className="btn  btn-lg fw-bold btn-warning mx-2">Epay</Link>
                                 <Link className="btn  btn-lg fw-bold btn-warning ">EService</Link>
                             </div>
                         </div>
