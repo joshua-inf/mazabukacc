@@ -95,7 +95,6 @@ const Payment = () => {
                         </div>
                     </div>
                 </div>
-                <UsingHooks/>
 
             </div>
         </>
