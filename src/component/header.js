@@ -79,7 +79,7 @@ export function Nav() {
                     <button id='show' onClick={show} className='btn btn-lg btn-outline-secondary '><i class="fa-solid fa-bars"></i></button>
                 </div>
                 <ul id='lists' className="lists justify-content-sm-evenly">
-                    <li><NavLink id='a' to='/'>home</NavLink></li>
+                    <li><NavLink id='a' to='/mazabukacc/'>home</NavLink></li>
                     <li>
                         <Link id='a' className='link' >
                             about
@@ -92,23 +92,23 @@ export function Nav() {
                                                 <hr className='text-dark' />
                                                 <ul>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>About MCC</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>About MCC</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>About Clerk</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>About Clerk</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>The Mayor</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>The Mayor</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>Councilors</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>Councilors</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>Standing Committes</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>Standing Committes</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                 </ul>
@@ -120,20 +120,20 @@ export function Nav() {
                                                 <hr className='text-dark' />
                                                 <ul>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>Attractions</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>Attractions</NavLink>
                                                         <div className='underline'></div>
 
                                                     </li>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>Hospitals</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>Hospitals</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>Police Stations</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>Police Stations</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>Fire Department</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>Fire Department</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                 </ul>
@@ -156,19 +156,19 @@ export function Nav() {
                                                 <hr className='text-dark' />
                                                 <ul>
                                                     <li>
-                                                        <NavLink id='link' to='/services/marriages'>Marriages</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/marriages'>Marriages</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <NavLink id='link' to='/services/earlyChildEducation#top'>Early Childhood Education</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/earlyChildEducation#top'>Early Childhood Education</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>Funerals and Cemetaries</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>Funerals and Cemetaries</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>Environment and Health</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>Environment and Health</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                 </ul>
@@ -180,20 +180,20 @@ export function Nav() {
                                                 <hr className='text-dark' />
                                                 <ul>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>City Libraries</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>City Libraries</NavLink>
                                                         <div className='underline'></div>
 
                                                     </li>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>Lisumpuko Hall Hire</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>Lisumpuko Hall Hire</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>Traditional Healer/ Herbalist</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>Traditional Healer/ Herbalist</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>Waste Management</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>Waste Management</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                 </ul>
@@ -215,15 +215,15 @@ export function Nav() {
                                                 <hr className='text-dark' />
                                                 <ul>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>Housing and Social Services</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>Housing and Social Services</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>Public Health</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>Public Health</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>Valuation and Real Estate</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>Valuation and Real Estate</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                 </ul>
@@ -235,19 +235,19 @@ export function Nav() {
                                                 <hr className='text-dark' />
                                                 <ul>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>Administration</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>Administration</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>Finance</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>Finance</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>Legal Services</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>Legal Services</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>Engineering</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>Engineering</NavLink>
                                                         <div className='underline'></div>
                                                     </li>
                                                 </ul>
@@ -270,10 +270,10 @@ export function Nav() {
                                                 <hr className='text-dark' />
                                                 <ul>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>CDF use in Mazabuka local</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>CDF use in Mazabuka local</NavLink>
                                                     </li>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>Inner Ring Road project</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>Inner Ring Road project</NavLink>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -284,13 +284,13 @@ export function Nav() {
                                                 <hr className='text-dark' />
                                                 <ul>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>Roads and Drainages</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>Roads and Drainages</NavLink>
                                                     </li>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>Street Lighting Projects</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>Street Lighting Projects</NavLink>
                                                     </li>
                                                     <li>
-                                                        <NavLink id='link' to='/services/link'>Valuation</NavLink>
+                                                        <NavLink id='link' to='/mazabukacc/services/link'>Valuation</NavLink>
                                                     </li>
                                                 </ul>
                                             </div>
