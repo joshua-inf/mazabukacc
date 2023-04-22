@@ -44,13 +44,13 @@ function App() {
                 <div className=''>
                   <Routes>
                     <Route path='/mazabukacc/' element={<Home />} />
-                    <Route path='/mazabukacc//services/marriages' element={<Marriage />} />
-                    <Route path='/mazabukacc//services/earlyChildEducation' element={<ECE />} />
-                    <Route path='/mazabukacc//services/link' element={<Build />} />
-                    <Route path='/mazabukacc//NewsList' element={<NewsList />} />
-                    <Route path='/mazabukacc//NewsList/:id' element={<ListNews />} />
-                    <Route path='/mazabukacc//epay' element={<Payment />} />
-                    <Route path='/mazabukacc//Events/:id' element={<Events />} />
+                    <Route path='/mazabukacc/services/marriages' element={<Marriage />} />
+                    <Route path='/mazabukacc/services/earlyChildEducation' element={<ECE />} />
+                    <Route path='/mazabukacc/services/link' element={<Build />} />
+                    <Route path='/mazabukacc/NewsList' element={<NewsList />} />
+                    <Route path='/mazabukacc/NewsList/:id' element={<ListNews />} />
+                    <Route path='/mazabukacc/epay' element={<Payment />} />
+                    <Route path='/mazabukacc/Events/:id' element={<Events />} />
                   </Routes>
                 </div>
                 <Footer />
