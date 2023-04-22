@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e1373ffa.css",
-    "main.js": "/static/js/main.5db1e76d.js",
+    "main.js": "/static/js/main.a4db3ad2.js",
     "static/js/787.1904e148.chunk.js": "/static/js/787.1904e148.chunk.js",
     "static/media/Mayor1.jpg": "/static/media/Mayor1.1f106659c4f72c51416e.jpg",
     "static/media/bgpay.jpg": "/static/media/bgpay.aefaf02ef81779f18cf0.jpg",
@@ -24,11 +24,11 @@
     "static/media/logo.png": "/static/media/logo.e643ed44d7bb027a7f55.png",
     "index.html": "/index.html",
     "main.e1373ffa.css.map": "/static/css/main.e1373ffa.css.map",
-    "main.5db1e76d.js.map": "/static/js/main.5db1e76d.js.map",
+    "main.a4db3ad2.js.map": "/static/js/main.a4db3ad2.js.map",
     "787.1904e148.chunk.js.map": "/static/js/787.1904e148.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e1373ffa.css",
-    "static/js/main.5db1e76d.js"
+    "static/js/main.a4db3ad2.js"
   ]
 }
