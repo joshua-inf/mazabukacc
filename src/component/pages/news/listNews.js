@@ -19,7 +19,7 @@ export function ListNews() {
             <div>
                 <div>
                     <div className="px-4">
-                        <Link className="btn my-2 btn-outline-secondary" to='/NewsList'>go to news</Link>
+                        <Link className="btn my-2 btn-outline-secondary" to='/mazabukacc/NewsList'>go to news</Link>
                         <div>
                             <div className="row">
                                 {obj.map((n) => (
@@ -63,7 +63,7 @@ export function ListNews() {
                                                             <div>
                                                                 <h5 className="fw-light">{n.header.substring(0, 20)+'...'}</h5>
                                                                 <p className="fs-7">
-                                                                   {n.news.substring(0, 150)+'...'}<Link to={'/NewsList/'+n.newsId}>view</Link>
+                                                                   {n.news.substring(0, 150)+'...'}<Link to={'/mazabukacc/NewsList/'+n.newsId}>view</Link>
                                                                 </p>
                                                             </div>
                                                         </div>

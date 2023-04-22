@@ -18,7 +18,7 @@ export function NewsList() {
                         <div className='card-body'>
                             <h6 className='card-title text-uppercase'>{props.head}</h6>
                             <p style={{ textAlign: 'justify', textJustify: 'inter-word' }}>
-                                {props.news}<Link to={'/NewsList/' + props.Id} >View more</Link>
+                                {props.news}<Link to={'/mazabukacc/NewsList/' + props.Id} >View more</Link>
                             </p>
                         </div>
                         <div className='d-flex px-2 justify-content-end'>
